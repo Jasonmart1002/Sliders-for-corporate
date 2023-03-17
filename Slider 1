@@ -101,43 +101,39 @@ background:rgb(7, 67, 213);
     <!--Slider-->
   <div id="slider">
     <div class="slide" style="background:dodgerBlue;">
-      <img src="https://i.imgur.com/FLstyUm.jpg" >
+      <img src="https://i.imgur.com/Bncqou7.jpg" >
     </div>
 
     <div class="slide" style="background:dodgerBlue;">
-       <img src="https://i.imgur.com/V13CvE7.jpg" >
+       <img src="https://i.imgur.com/WFBucLx.jpg" >
     </div>
 
     <div class="slide" style="background:dodgerBlue;">
-      <img src="https://i.imgur.com/PB6dgrc.jpg" >
+      <img src="https://i.imgur.com/EqpbO1p.jpg" >
     </div>
 
     <div class="slide" style="background:dodgerBlue;">
-      <img src="https://i.imgur.com/QduCqKc.jpg" >
+      <img src="https://i.imgur.com/W7IqiQa.jpg" >
     </div>
     
     <div class="slide" style="background:dodgerBlue;">
-      <img src="https://i.imgur.com/9Gx1Xiy.jpg" >
+      <img src="https://i.imgur.com/dAltqYm.jpg" >
     </div>
     
     <div class="slide" style="background:dodgerBlue;">
-      <img src="https://i.imgur.com/CdMSeMD.jpg" >
+      <img src="https://i.imgur.com/Qbhp3jW.jpg" >
     </div>
     
     <div class="slide" style="background:dodgerBlue;">
-      <img src="https://i.imgur.com/JZc4fxp.jpg" >
+      <img src="https://i.imgur.com/Dj0zI4j.jpg" >
     </div>
     
     <div class="slide" style="background:dodgerBlue;">
-      <img src="https://i.imgur.com/JgUiT2u.jpg" >
+      <img src="https://i.imgur.com/dAltqYm.jpg" >
     </div>
     
     <div class="slide" style="background:dodgerBlue;">
-      <img src="https://i.imgur.com/FDtF3vt.jpg" >
-    </div>
-    
-    <div class="slide" style="background:dodgerBlue;">
-      <img src="https://i.imgur.com/DdGOFyk.jpg" >
+      <img src="https://i.imgur.com/IwHvnlL.jpg" >
     </div>
 
     <!--Controlling arrows-->
@@ -147,7 +143,7 @@ background:rgb(7, 67, 213);
   </span>
   </div>
     <div id="dots-con">
-   <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+    <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
    </div>
 
 

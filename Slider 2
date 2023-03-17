@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <style media="screen">
-  body{
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style media="screen">
+  body{
 background:#e6e6e6;
 }
 #slider{
@@ -84,75 +84,64 @@ background:rgb(7, 67, 213);
 }
 
 .controls{
-  font-size:1em;
+  font-size:1em;
 }
 
 #dots-con{
-  display:none;
+  display:none;
 }
 }
-  </style>
+  </style>
 </head>
 <body>
 
 
 
 
-    <!--Slider-->
-  <div id="slider">
-    <div class="slide" style="background:dodgerBlue;">
-      <img src="https://i.imgur.com/JGZ6fpA.jpg" >
-    </div>
+    <!--Slider-->
+  <div id="slider">
+    <div class="slide" style="background:dodgerBlue;">
+      <img src="https://i.imgur.com/Bncqou7.jpg" >
+    </div>
 
-    <div class="slide" style="background:dodgerBlue;">
-       <img src="https://i.imgur.com/KmVqYC2.jpg" >
-    </div>
+    <div class="slide" style="background:dodgerBlue;">
+       <img src="https://i.imgur.com/67Lb99O.jpg" >
+    </div>
 
-    <div class="slide" style="background:dodgerBlue;">
-      <img src="https://i.imgur.com/jQaXoOB.jpg" >
-    </div>
+    <div class="slide" style="background:dodgerBlue;">
+      <img src="https://i.imgur.com/n72ncH5.jpg" >
+    </div>
 
-    <div class="slide" style="background:dodgerBlue;">
-      <img src="https://i.imgur.com/jiDfx7o.jpg" >
-    </div>
-    
-    <div class="slide" style="background:dodgerBlue;">
-      <img src="https://i.imgur.com/o4ZFhUu.jpg" >
-    </div>
-    
-    <div class="slide" style="background:dodgerBlue;">
-      <img src="https://i.imgur.com/r9GA6fI.jpg" >
-    </div>
-    
-    <div class="slide" style="background:dodgerBlue;">
-      <img src="https://i.imgur.com/Hq4mFjH.jpg" >
-    </div>
-    
-    <div class="slide" style="background:dodgerBlue;">
-      <img src="https://i.imgur.com/nV4FZ90.jpg" >
-    </div>
-    
-    <div class="slide" style="background:dodgerBlue;">
-      <img src="https://i.imgur.com/Iyix7Be.jpg" >
-    </div>
-    
-    <div class="slide" style="background:dodgerBlue;">
-      <img src="https://i.imgur.com/Oh3CUmh.jpg" >
-    </div>
+    <div class="slide" style="background:dodgerBlue;">
+      <img src="https://i.imgur.com/DYb0GwG.jpg" >
+    </div>
+    
+    <div class="slide" style="background:dodgerBlue;">
+      <img src="https://i.imgur.com/1yoKwme.jpg" >
+    </div>
+    
+    <div class="slide" style="background:dodgerBlue;">
+      <img src="https://i.imgur.com/y5icnh1.jpg" >
+    </div>
+    
+    <div class="slide" style="background:dodgerBlue;">
+      <img src="https://i.imgur.com/HWNKilE.jpg" >
+    </div>
+    
+    <div class="slide" style="background:dodgerBlue;">
+      <img src="https://i.imgur.com/g1ZsOYF.jpg" >
+    </div>
 
-    <div class="slide" style="background:dodgerBlue;">
-      <img src="https://i.imgur.com/j9izbyg.jpg" >
-    </div>
 
-    <!--Controlling arrows-->
-    <span class="controls" onclick="prevSlide(-1)" id="left-arrow"><i class="fa fa-arrow-left" aria-hidden="true"></i>
-  </span>
-    <span class="controls" id="right-arrow" onclick="nextSlide(1)"><i class="fa fa-arrow-right" aria-hidden="true"></i>
-  </span>
-  </div>
-    <div id="dots-con">
-   <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
-   </div>
+    <!--Controlling arrows-->
+    <span class="controls" onclick="prevSlide(-1)" id="left-arrow"><i class="fa fa-arrow-left" aria-hidden="true"></i>
+  </span>
+    <span class="controls" id="right-arrow" onclick="nextSlide(1)"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+  </span>
+  </div>
+    <div id="dots-con">
+    <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+   </div>
 
 
 <script type="text/javascript">
@@ -162,38 +151,38 @@ var index = 0;
 
 
 function prevSlide(n){
-  index+=n;
-  console.log("prevSlide is called");
-  changeSlide();
+  index+=n;
+  console.log("prevSlide is called");
+  changeSlide();
 }
 
 function nextSlide(n){
-  index+=n;
-  changeSlide();
+  index+=n;
+  changeSlide();
 }
 
 changeSlide();
 
 function changeSlide(){
 
-  if(index>slides.length-1)
-    index=0;
+  if(index>slides.length-1)
+    index=0;
 
-  if(index<0)
-    index=slides.length-1;
-
-
-
-    for(let i=0;i<slides.length;i++){
-      slides[i].style.display = "none";
-
-      dots[i].classList.remove("active");
+  if(index<0)
+    index=slides.length-1;
 
 
-    }
 
-    slides[index].style.display = "block";
-    dots[index].classList.add("active");
+    for(let i=0;i<slides.length;i++){
+      slides[i].style.display = "none";
+
+      dots[i].classList.remove("active");
+
+
+    }
+
+    slides[index].style.display = "block";
+    dots[index].classList.add("active");
 
 
 
@@ -201,7 +190,7 @@ function changeSlide(){
 
 // Auto-play functionality
 function autoPlay() {
-  nextSlide(1);
+  nextSlide(1);
 }
 
 // Set auto-play interval to 3 seconds (3000 milliseconds)
